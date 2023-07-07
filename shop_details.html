@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop_details</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@400;700&family=Open+Sans:wght@400;500;700;800&family=Playfair+Display:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+     <!--Header Section-->
+     <header>
+        <div class="container">
+            <div class="row">
+                <div class="WLC col-lg-6 col-md-6">
+                    <p>
+                        <span><i class="bi bi-send"></i></span>FREE SHIPING world wide for all orders over<span class="color">$150</span> </p>
+                </div>
+              
+                <div class="wlcCnt col-lg-6 col-md-6">
+                    <div class="row">
+                        <div class="track col-lg-8 col-md-8">
+                           <ul>
+                            <li> <p>Track Your Order</p></li>
+                            <li><p>English<span><i class="fa-solid fa-angle-down"></i></span></p></li>
+                            <li><p>USD<span><i class="fa-solid fa-angle-down"></i></span></p></li>
+                           </ul>
+                        </div>
+                  
+                    <div class="social_icons col-lg-4 col-md-4">
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+        </header>
+     
+        <!--Header Section-->
+    <!--Nav Starts here-->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Logo.png" alt="">
+          </a>
+          <!--small device Menu -->
+          <button class=" togglerButton d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" aria-controls="offcanvasExample">
+            <i class="bi bi-justify-left"></i>
+          </button>
+          
+          <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="./img/Logo.png" class="offCanvasLogo">
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-0">
+              <ul class="small_menu">
+                <li>
+                  <a href="#">Home
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                    
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Shop
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Pages
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Features
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Blog
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Contact
+                    
+                  </a>
+
+
+                </li>
+              </ul>
+   
+             <div class="iconsDiv">
+              <ul>
+                  <li> <span><i class="bi bi-search"></i></span></li>
+                  <li><a href="#"><i class="bi bi-person"></i></a></li>
+                  <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                  <li><a href="#"><i class="bi bi-bag"></i>
+                      <span class="overlay">0</span>
+                  </a>
+                  </li>
+              </ul>
+              
+            </div>
+        </div>
+    </div>
+         
+            
+          
+      
+          
+           <!--small device Menu Ends -->
+          
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Shop<i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="./cart.html" class="dropdown">Cart</a></li>
+                  <li><a href="./Compare.html" class="dropdown">Compare</a></li>
+                  <li><a href="./Checkout.html" class="dropdown">Checkout</a></li>
+                  <li><a href="./Wishlist.html" class="dropdown">Wishlist</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./about.html">Pages<i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Features <i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Blog <i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./contact.html">Contact </a>
+              </li>
+             
+            </ul>
+          
+          </div>
+          <div class="iconsDiv d-none d-lg-block">
+            <ul>
+                <li> <span><i class="bi bi-search"></i></span></li>
+                <li><a href="#"><i class="bi bi-person"></i></a></li>
+                <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                <li><a href="#"><i class="bi bi-bag"></i>
+                    <span class="overlay">0</span>
+                </a>
+                </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      </nav>
+      <!--Nav End here-->
+
+      <!--Main Section Starts-->
+      <main>
+        <!--Banner Section Starts-->
+
+        <section id="Shop_banner">
+          <div class="container">
+              <div class="row">
+                  <div class="banner_Cnt">
+                      <h2>Shop - Details Style One</h2>
+                      <p>Home  /  Shop</p>
+                  </div>
+              </div>
+             
+          </div>
+      </section>
+        <!--Banner Section Ends-->
+
+         <!--Shop_detail Section Starts-->
+
+         <section id="shop_details">
+            <div class="container">
+              <div class="arrows">
+                <span class="leftArrows"><i class="bi bi-chevron-left"></i></span>
+                <span class="rightArrows"><i class="bi bi-chevron-right"></i></i></span>
+    
+            </div>
+                <div class="row">
+                    <div class=" shop col-lg-6 col-md-12">
+                        <div class="top_img_slider">
+                           <div class="img_card">
+                            <div>
+                                <img src="./img/shopimg1.png">
+                            </div>
+                            <div>
+                                <img src="./img/Group 43.png">
+                            </div>
+                            <div>
+                                <img src="./img/shop_img3.png">
+                            </div>
+                            <div>
+                                <img src="./img/Group 41.png">
+                            </div>
+                            <div>
+                                <img src="./img/Group 42.png">
+                            </div>
+                           </div>
+                           
+                        </div>
+
+                     
+                      
+                        <div class="bottom_img_slider">
+                            <div class="img_card">
+                             <div>
+                                 <img src="./img/shopimg1.png">
+                             </div>
+                             <div>
+                                 <img src="./img/Group 43.png">
+                             </div>
+                             <div>
+                                 <img src="./img/shop_img3.png">
+                             </div>
+                             <div>
+                                 <img src="./img/Group 41.png">
+                             </div>
+                             <div>
+                                 <img src="./img/Group 42.png">
+                             </div>
+                             <div>
+                                <img src="./img/shopimg1.png">
+                            </div>
+                            <div>
+                                <img src="./img/Group 43.png">
+                            </div>
+                            <div>
+                                <img src="./img/shop_img3.png">
+                            </div>
+                            <div>
+                                <img src="./img/Group 41.png">
+                            </div>
+                            <div>
+                                <img src="./img/Group 42.png">
+                            </div>
+                            </div>
+                            
+                         </div>
+
+                        </div>
+                        
+                       
+                   
+                    <div class=" shop_info col-lg-6 col-md-12">
+                        <h3>Leather Jackets</h3>
+                        <p>5.00<span>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </span>(5 Customer Review)</p>
+                        <p style="color: #11161E;">$150.65<span>$150.65</span></p>
+                        <p style="text-align: justify;">Quickly productivate holistic systems after 24/365 e-commerce.
+                             Continually synthesize superior catalysts for change via high standards in leadership skills. 
+                             Collaboratively evisculate distributed functionalities rather than timely methods of empowerment.</p>
+                         <form>
+                          <div class="row size">
+                            <label for="sze" class="col-lg-2">Size:</label>
+                            <select name="" id="sze" class="col-lg-10">
+                                <option value="">44</option>
+                            <option value="">40</option>
+                            <option value="">41</option>
+                            <option value="">42</option>
+                            <option value="">43</option>
+                            <option value="">44</option>
+                        </select>
+                          </div>
+                          <div class="row colorss">
+                            <label for="color" class="col-lg-2">Color:</label>
+                            <select name="" id="color" class="col-lg-10">
+                                <option value="">Orange</option>
+                            <option value="">Red</option>
+                            <option value="">Blue</option>
+                            <option value="">Green</option>
+                           
+                        </select>
+                          </div>
+                           
+                         </form>   
+                         
+                         <div class="row quality_info">
+                          
+                         <div class="quality col-lg-3">
+                          <label for="qua" class="qua">Quality:</label>
+                            
+
+                          
+                            <label for="" class="col-lg-2">Quality:</label>
+                            <div class="row">
+                              <button type="submit" class=" quality_btn btn1 col-lg-4">-</button>
+                              <button type="submit" class=" quality_btn  col-lg-4">1</button>
+                              <button type="submit" class=" quality_btn col-lg-4">+</button>
+
+                            </div>
+
+                          
+                          
+                          
+                        
+                          
+                         
+                          
+                         </div>
+                          <a href="#" class="button col-lg-4 col-md-6">Add To Cart</a>
+                          <div class="shop_details_icons col-lg-5 col-md-6">
+                            <ul>
+                              <li><span><i class="bi bi-heart-fill"></i></span></li>
+                              <li><span><i class="bi bi-eye-fill"></i></span></li>
+                              <li><span><i class="bi bi-reception-3"></i></span></li>
+
+                            </ul>
+
+                          </div>
+                          <div class="tags">
+                            <ul>
+                              <li> <p><span style="color: #11161E;">SKU:</span>  W0243</p></li>
+                              <li> <p><span style="color: #11161E;">Tags:</span>  Hot, Women</p></li>
+                              <li> <p><span style="color: #11161E;">Category: </span> Dress, T-Shirt, Mini Scut</p></li>
+                            </ul>
+
+                          </div>
+                         </div>
+                         
+                         
+
+                    </div>
+                </div>
+                    
+
+                </div>
+
+            </div>
+         </section>
+           <!--Shop_detail Section ends-->
+            <!--customer Section starts-->
+         <section id="customer">
+          <div class="container">
+
+            <div class="row">
+              <div class="shop_btn">
+                
+                  <button class="Product_Description col-lg-3 col-md-12">Product Description</button>
+                
+                
+                  <button class="Customer_Review col-lg-3 col-md-12">Customer Review(1)</button>
+              
+                
+                  <button class="Additional_Information col-lg-3 col-md-12">Additional Information</button>
+             
+                 
+               
+              
+
+              </div>
+              </div>
+         
+   <div class="customer_cnt">
+             
+            <p class="customerCare">Conveniently build adaptive users with front-end human capital. Appropriately unleash team building technology for goal-oriented paradigms. Dynamically generate interoperable e-business vis-a-vis goal-oriented value. Completely pursue fully tested content whereas multifunctional core competencies. Progressively scale team driven process improvements before premier functionalities. Holisticly cultivate intermandated methodologies rather than virtual technology. Monotonectally target interactive synergy without process-centric e-markets. Holisticly pursue enterprise-wide leadership skills for enterprise leadership. Collaboratively underwhelm standardized expertise after effective bandwidth. Conveniently productivate holistic collaboration and idea-sharing rather than granular strategic theme areas.
+
+              Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+              Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.</p>
+              <p class="customerCare2">What is the importance of design?
+                Image result for about design
+                A Good Design Will Make You Look GoodEnthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+                Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.
+                
+                It allows you to make a positive first impression on potential customers. It has been shown that human beings form an initial impression within a couple of seconds, but it can take a lot longer than this to alter that perception once a first impression has been made.</p>
+                <p class="customerCare3">What is the importance of marketing?
+                  The importance of marketing for your business is that it makes the customers aware of your products or services, engages them, and helps them make the buying decision. Furthermore, a marketing plan, a part of your business plan helps in creating and maintaining demand, relevance, reputation, competition, etc.Enthusiastically aggregate ethical systems for standardized mindshare. Energistically target resource maximizing leadership skills without backward-compatible action items. Credibly impact alternative expertise vis-a-vis economically sound results. Dynamically synergize empowered benefits through functional partnerships. Authoritatively empower prospective infomediaries for interactive content.
+                  Synergistically embrace 2.0 paradigms through professional intellectual capital. Interactively strategize parallel growth strategies without out-of-the-box web services. Assertively reinvent installed base.</p>
+        </div>
+          </div>
+       
+         </section>
+         <!--customerSection ends-->
+             <!--Related Section starts-->
+         <section id="Related_Product">
+          <div class="container">
+           <h2 class="heading">Related Products</h2>
+           <div class="arrows">
+             <span class="leftArrows"><i class="bi bi-chevron-left"></i></span>
+             <span class="rightArrows"><i class="bi bi-chevron-right"></i></i></span>
+ 
+         </div>
+             <div class="Related_slider">
+                <div class="col-lg-3  product_container">
+                 <div class="product_card">
+                   <div class="product_img">
+                     <div class="label">
+                       New
+                     </div>
+                       <img src="./img/Group 33.png">
+                        
+                         <div class="overlay">
+                            <ul>
+                             <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                               <div class="tooltip_product">
+                                 <span>Add to Cart</span>
+
+                               </div>
+                             </li>
+                             <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                               <div class="overlay01">
+                                 <span>Add to wishlist</span>
+
+                               </div>
+                             
+                               
+                             </li>
+                             <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                               <div class="overlay02">
+                                 <span>See More</span>
+
+                               </div>
+                             </li>
+                             <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                               <div class="overlay3">
+                                 <span> Network</span>
+
+                               </div>
+                             </li>
+                            </ul>
+
+                         </div>
+                    </div>
+                    <div class="product_info">
+                      <div class="row">
+                        <div class="base col-lg-5">
+                          <h6><a href="./shop_details.html"> Baseball </a></h6>
+
+                        </div>
+                     <div class="ball col-lg-7">
+                      <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                     </div>
+                      </div>
+                     <p>$150.65 </p>
+                    
+                    </div>
+                   
+
+                </div>
+                 </div>
+                 <div class="col-lg-3  product_container">
+                  <div class="product_card">
+                    <div class="product_img">
+                      <div class="label">
+                        New
+                      </div>
+                        <img src="./img/Group 33.png">
+                         
+                          <div class="overlay">
+                             <ul>
+                              <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                <div class="tooltip_product">
+                                  <span>Add to Cart</span>
+ 
+                                </div>
+                              </li>
+                              <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                <div class="overlay01">
+                                  <span>Add to wishlist</span>
+ 
+                                </div>
+                              
+                                
+                              </li>
+                              <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                <div class="overlay02">
+                                  <span>See More</span>
+ 
+                                </div>
+                              </li>
+                              <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                <div class="overlay3">
+                                  <span> Network</span>
+ 
+                                </div>
+                              </li>
+                             </ul>
+ 
+                          </div>
+                     </div>
+                     <div class="product_info">
+                       <div class="row">
+                         <div class="base col-lg-5">
+                           <h6><a href="./shop_details.html"> Baseball </a></h6>
+ 
+                         </div>
+                      <div class="ball col-lg-7">
+                       <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                      </div>
+                       </div>
+                      <p>$150.65 </p>
+                     
+                     </div>
+                    
+ 
+                 </div>
+                  </div>
+                  <div class="col-lg-3  product_container">
+                    <div class="product_card">
+                      <div class="product_img">
+                        <div class="label">
+                          New
+                        </div>
+                          <img src="./img/Group 33.png">
+                           
+                            <div class="overlay">
+                               <ul>
+                                <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                  <div class="tooltip_product">
+                                    <span>Add to Cart</span>
+   
+                                  </div>
+                                </li>
+                                <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                  <div class="overlay01">
+                                    <span>Add to wishlist</span>
+   
+                                  </div>
+                                
+                                  
+                                </li>
+                                <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                  <div class="overlay02">
+                                    <span>See More</span>
+   
+                                  </div>
+                                </li>
+                                <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                  <div class="overlay3">
+                                    <span> Network</span>
+   
+                                  </div>
+                                </li>
+                               </ul>
+   
+                            </div>
+                       </div>
+                       <div class="product_info">
+                         <div class="row">
+                           <div class="base col-lg-5">
+                             <h6><a href="./shop_details.html"> Baseball </a></h6>
+   
+                           </div>
+                        <div class="ball col-lg-7">
+                         <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                        </div>
+                         </div>
+                        <p>$150.65 </p>
+                       
+                       </div>
+                      
+   
+                   </div>
+                    </div>
+                    <div class="col-lg-3  product_container">
+                      <div class="product_card">
+                        <div class="product_img">
+                          <div class="label">
+                            New
+                          </div>
+                            <img src="./img/Group 33.png">
+                             
+                              <div class="overlay">
+                                 <ul>
+                                  <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                    <div class="tooltip_product">
+                                      <span>Add to Cart</span>
+     
+                                    </div>
+                                  </li>
+                                  <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                    <div class="overlay01">
+                                      <span>Add to wishlist</span>
+     
+                                    </div>
+                                  
+                                    
+                                  </li>
+                                  <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                    <div class="overlay02">
+                                      <span>See More</span>
+     
+                                    </div>
+                                  </li>
+                                  <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                    <div class="overlay3">
+                                      <span> Network</span>
+     
+                                    </div>
+                                  </li>
+                                 </ul>
+     
+                              </div>
+                         </div>
+                         <div class="product_info">
+                           <div class="row">
+                             <div class="base col-lg-5">
+                               <h6><a href="./shop_details.html"> Baseball </a></h6>
+     
+                             </div>
+                          <div class="ball col-lg-7">
+                           <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                          </div>
+                           </div>
+                          <p>$150.65 </p>
+                         
+                         </div>
+                        
+     
+                     </div>
+                      </div>
+                      <div class="col-lg-3  product_container">
+                        <div class="product_card">
+                          <div class="product_img">
+                            <div class="label">
+                              New
+                            </div>
+                              <img src="./img/Group 33.png">
+                               
+                                <div class="overlay">
+                                   <ul>
+                                    <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                      <div class="tooltip_product">
+                                        <span>Add to Cart</span>
+       
+                                      </div>
+                                    </li>
+                                    <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                      <div class="overlay01">
+                                        <span>Add to wishlist</span>
+       
+                                      </div>
+                                    
+                                      
+                                    </li>
+                                    <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                      <div class="overlay02">
+                                        <span>See More</span>
+       
+                                      </div>
+                                    </li>
+                                    <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                      <div class="overlay3">
+                                        <span> Network</span>
+       
+                                      </div>
+                                    </li>
+                                   </ul>
+       
+                                </div>
+                           </div>
+                           <div class="product_info">
+                             <div class="row">
+                               <div class="base col-lg-5">
+                                 <h6><a href="./shop_details.html"> Baseball </a></h6>
+       
+                               </div>
+                            <div class="ball col-lg-7">
+                             <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                            </div>
+                             </div>
+                            <p>$150.65 </p>
+                           
+                           </div>
+                          
+       
+                       </div>
+                        </div>
+                        <div class="col-lg-3  product_container">
+                          <div class="product_card">
+                            <div class="product_img">
+                              <div class="label">
+                                New
+                              </div>
+                                <img src="./img/Group 33.png">
+                                 
+                                  <div class="overlay">
+                                     <ul>
+                                      <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                        <div class="tooltip_product">
+                                          <span>Add to Cart</span>
+         
+                                        </div>
+                                      </li>
+                                      <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                        <div class="overlay01">
+                                          <span>Add to wishlist</span>
+         
+                                        </div>
+                                      
+                                        
+                                      </li>
+                                      <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                        <div class="overlay02">
+                                          <span>See More</span>
+         
+                                        </div>
+                                      </li>
+                                      <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                        <div class="overlay3">
+                                          <span> Network</span>
+         
+                                        </div>
+                                      </li>
+                                     </ul>
+         
+                                  </div>
+                             </div>
+                             <div class="product_info">
+                               <div class="row">
+                                 <div class="base col-lg-5">
+                                   <h6><a href="./shop_details.html"> Baseball </a></h6>
+         
+                                 </div>
+                              <div class="ball col-lg-7">
+                               <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                              </div>
+                               </div>
+                              <p>$150.65 </p>
+                             
+                             </div>
+                            
+         
+                         </div>
+                          </div>
+                          <div class="col-lg-3  product_container">
+                            <div class="product_card">
+                              <div class="product_img">
+                                <div class="label">
+                                  New
+                                </div>
+                                  <img src="./img/Group 33.png">
+                                   
+                                    <div class="overlay">
+                                       <ul>
+                                        <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                          <div class="tooltip_product">
+                                            <span>Add to Cart</span>
+           
+                                          </div>
+                                        </li>
+                                        <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                          <div class="overlay01">
+                                            <span>Add to wishlist</span>
+           
+                                          </div>
+                                        
+                                          
+                                        </li>
+                                        <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                          <div class="overlay02">
+                                            <span>See More</span>
+           
+                                          </div>
+                                        </li>
+                                        <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                          <div class="overlay3">
+                                            <span> Network</span>
+           
+                                          </div>
+                                        </li>
+                                       </ul>
+           
+                                    </div>
+                               </div>
+                               <div class="product_info">
+                                 <div class="row">
+                                   <div class="base col-lg-5">
+                                     <h6><a href="./shop_details.html"> Baseball </a></h6>
+           
+                                   </div>
+                                <div class="ball col-lg-7">
+                                 <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                                </div>
+                                 </div>
+                                <p>$150.65 </p>
+                               
+                               </div>
+                              
+           
+                           </div>
+                            </div>
+                            <div class="col-lg-3  product_container">
+                              <div class="product_card">
+                                <div class="product_img">
+                                  <div class="label">
+                                    New
+                                  </div>
+                                    <img src="./img/Group 33.png">
+                                     
+                                      <div class="overlay">
+                                         <ul>
+                                          <li><a href="#"><i class="bi bi-cart-plus"></i></a>
+                                            <div class="tooltip_product">
+                                              <span>Add to Cart</span>
+             
+                                            </div>
+                                          </li>
+                                          <li><a href="#"><i class="bi bi-heart-fill"></i></a>
+                                            <div class="overlay01">
+                                              <span>Add to wishlist</span>
+             
+                                            </div>
+                                          
+                                            
+                                          </li>
+                                          <li><a href="#"><i class="bi bi-eye-fill"></i></a>
+                                            <div class="overlay02">
+                                              <span>See More</span>
+             
+                                            </div>
+                                          </li>
+                                          <li><a href="#"><i class="bi bi-reception-3"></i></a>
+                                            <div class="overlay3">
+                                              <span> Network</span>
+             
+                                            </div>
+                                          </li>
+                                         </ul>
+             
+                                      </div>
+                                 </div>
+                                 <div class="product_info">
+                                   <div class="row">
+                                     <div class="base col-lg-5">
+                                       <h6><a href="./shop_details.html"> Baseball </a></h6>
+             
+                                     </div>
+                                  <div class="ball col-lg-7">
+                                   <span class="star"><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i></span> 
+                                  </div>
+                                   </div>
+                                  <p>$150.65 </p>
+                                 
+                                 </div>
+                                
+             
+                             </div>
+                              </div>
+               
+
+                  
+
+
+             </div>
+
+          </div>
+
+
+       </section>
+         <!--Related Section ends-->
+        
+
+         
+
+        
+
+        
+      </main>
+       <!--Main Section Ends-->
+
+ <!--Footer starts-->
+ <footer class="shop_footer">
+  <div class="container">
+        <div class="footer_details">
+          <div class="footer_icons">
+          <div class="row">
+            <div class="social_icons col-lg-6 col-md-8">
+              <h3>Subscribe to Our Newsletter!</h3>
+              <p>Authoritatively morph 24/7 potentialities with error-free partnerships.
+                 Objectively engineer multimedia.</p>
+            </div>
+            <div class="form col-lg-6 col-md-4">
+              <div class="row">
+                <div class="form_info col-lg-6">
+                  <label for="emailno"></label>
+              <input type="email" id="emailno" placeholder="Enter your email..." style="padding-top: 2px;">
+                </div>
+                <div class="form_btn col-lg-6">
+                   <a href="#" class="button">Subscribe</a>
+
+                </div>
+
+              </div>
+
+            </div>
+             
+               
+           
+
+            </div>
+          
+        </div>
+      </div>
+        <div class="footerinfo">
+          <div class="row">
+            <div class="intro col-lg-3">
+              <img src="./img/logo2.png">
+              <p>Progressively optimize effective ideas before turnkey process improvements. Proactively disseminate</p>
+              <ul>
+                <li><span><i class="bi bi-facebook"></i></span></li>
+                <li><span><i class="bi bi-twitter"></i></span></li>
+                <li><span><i class="bi bi-instagram"></i></span></li>
+                <li><span><i class="bi bi-pinterest"></i></span></li>
+              </ul>
+
+            </div>
+
+         
+          <div class="My_Account  col-lg-2 col-md-3">
+            <h4>My Account</h4>
+            <ul class="footerinfo_ul">
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>My Account</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>View Cart</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Wishlist</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Compare</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>New Products</a></li>
+            </ul>
+
+          </div>
+          <div class="support col-lg-2 col-md-4">
+            <h4>Support</h4>
+            <ul class="footerinfo_ul">
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Help</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Contact Us</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Feedback</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Customer Service</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Store Locations</a></li>
+            </ul>
+
+          </div>
+          <div class="shup col-lg-2 col-md-4">
+            <h4>Shop</h4>
+            <ul class="footerinfo_ul">
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Men’s Shopping</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Women’s Shopping</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Kids’ Shopping</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>Discounts</a></li>
+              <li><a><span><i class="fa-solid fa-angle-right"></i></span>New Arrivels</a></li>
+            </ul>
+
+          </div>
+         
+          <div class="contact_us col-lg-3 col-md-6">
+            <h4>Contact Us</h4>
+        <div class="row align-center">
+           <div class="icn col-lg-3 col-md-3"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+           <div class="txt col-lg-9 col-md-9">830 Broadway, New York, NY 10003,
+            United States
+            .</div>
+            
+        </div>
+        <div class="row align-center">
+           <div class="icn col-lg-3 col-md-3"><i class="fa-solid fa-envelope"></i></div>
+           <div class="txt col-lg-9 col-md-9">aetor.info@gmail.com
+            info@aetor.com</div>
+            
+        </div>
+        <div class="row align-center">
+           <div class="icn col-lg-3 col-md-3"><i class="fa-solid fa-phone"></i></div>
+           <div class="txt col-lg-9 col-md-9">+18008660286
+       </div>
+            
+        </div>
+          </div>
+       
+
+        
+
+          </div>
+
+        </div>
+        
+
+        </div>
+
+  </div>
+  
+  
+
+
+</footer>
+<div class="reserved">
+<div class="container">
+
+
+<div class="row">
+  <p class="p4 col-lg-9 col-md-6">© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft. </span>
+  </p>
+  <div class="credit_cards col-lg-3 col-md-6 ">
+    <img src="./img/credit cards.png">
+
+  </div>
+
+</div>
+</div>
+
+
+</div>
+
+ <!--Footer ends-->
+
+
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/app.js"></script>
+</body>
+</html>

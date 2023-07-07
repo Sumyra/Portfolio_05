@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:wght@400;700&family=Open+Sans:wght@400;500;700;800&family=Playfair+Display:wght@400;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+             <!--Header Section-->
+             <header>
+                <div class="container">
+                    <div class="row">
+                        <div class="WLC col-lg-6 col-md-6">
+                            <p>
+                                <span><i class="bi bi-send"></i></span>FREE SHIPING world wide for all orders over<span class="color">$150</span> </p>
+                        </div>
+                      
+                        <div class="wlcCnt col-lg-6 col-md-6">
+                            <div class="row">
+                                <div class="track col-lg-8 col-md-8">
+                                   <ul>
+                                    <li> <p>Track Your Order</p></li>
+                                    <li><p>English<span><i class="fa-solid fa-angle-down"></i></span></p></li>
+                                    <li><p>USD<span><i class="fa-solid fa-angle-down"></i></span></p></li>
+                                   </ul>
+                                </div>
+                          
+                            <div class="social_icons col-lg-4 col-md-4">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest-p"></i></a></li>
+                                </ul>
+        
+                            </div>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </header>
+             
+                <!--Header Section-->
+      <!--Nav Starts here-->
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./img/Logo.png" alt="">
+          </a>
+          <!--small device Menu -->
+          <button class=" togglerButton d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#smallMenu" aria-controls="offcanvasExample">
+            <span style="color: black;"><i class="bi bi-list"></i></span>
+          </button>
+          
+          <div class="offcanvas offcanvas-start d-lg-none" tabindex="-1" id="smallMenu" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="./img/Logo.png" class="offCanvasLogo">
+              </h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body px-0">
+              <ul class="small_menu">
+                <li>
+                  <a href="#">Home
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                    
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Shop
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Pages
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Features
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Blog
+                    <span class="downArrow"><i class="fa-solid fa-angle-down"></i></span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Contact
+                    
+                  </a>
+
+
+                </li>
+              </ul>
+   
+             <div class="iconsDiv">
+              <ul>
+                  <li> <span><i class="bi bi-search"></i></span></li>
+                  <li><a href="#"><i class="bi bi-person"></i></a></li>
+                  <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                  <li><a href="#"><i class="bi bi-bag"></i>
+                      <span class="overlay">0</span>
+                  </a>
+                  </li>
+              </ul>
+              
+            </div>
+        </div>
+    </div>
+         
+            
+          
+      
+          
+           <!--small device Menu Ends -->
+          
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./index.html">Home <i class="fa-solid fa-angle-down"></i></a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./shop_details.html">Shop<i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                  <li><a href="./cart.html" class="dropdown">Cart</a></li>
+                  <li><a href="./Compare.html" class="dropdown">Compare</a></li>
+                  <li><a href="./Checkout.html" class="dropdown">Checkout</a></li>
+                  <li><a href="./Wishlist.html" class="dropdown">Wishlist</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./about.html">Pages<i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Features <i class="fa-solid fa-angle-down"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./blog.html">Blog <i class="fa-solid fa-angle-down"></i></a>
+                
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="./contact.html">Contact </a>
+              </li>
+             
+            </ul>
+          
+          </div>
+          <div class="iconsDiv d-none d-lg-block">
+            <ul>
+                <li> <span><i class="bi bi-search"></i></span></li>
+                <li><a href="#"><i class="bi bi-person"></i></a></li>
+                <li><a href="#"><i class="bi bi-heart"></i></a></li>
+                <li><a href="#"><i class="bi bi-bag"></i>
+                    <span class="overlay">0</span>
+                </a>
+                </li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      </nav>
+      <!--Nav End here-->
+    
+        <main>
+            <!--Banner Section Starts-->
+            <section id="Shop_banner">
+              <div class="container">
+                  <div class="row">
+                      <div class="banner_Cnt">
+                          <h2>Checkout</h2>
+                          <p>Home  /  Checkout</p>
+                      </div>
+                  </div>
+                 
+              </div>
+          </section>
+         <!--Banner Section Ends-->
+       
+         <!--Checkout Section starts-->
+         <section id="Checkout">
+            <div class="container">
+                <div class="row">
+                    <div class="billing col-lg-6">
+                        <h3>Billing Information</h3>
+                        <form>
+                            <div class="row">
+                          <div class="fName col-lg-6">
+                            <label for="fname">First Name*</label><br>
+                            <input id="fname" type="text" placeholder="Your first name...">
+                        </div>
+                        <div class="lName col-lg-6">
+                            <label for="lname">Last Name*</label><br>
+                            <input id="lname" type="text" placeholder="Your last name...">
+                        </div>
+                             </div>
+                             <div class="company">
+                                <label for="comp">Company name (optional)*</label><br>
+                                <input id="comp" type="text" placeholder="Name..." style="width: 100%; display: block;">
+
+                             </div>
+                             <div class="email">
+                                <label for="email">Email*</label><br>
+                                <input id="email" type="email" placeholder="youremail@gmail.com" style="width: 100%; display: block;">
+
+                             </div>
+                             <div class="tele">
+                                <label for="tel">Telephone*</label><br>
+                                <input id="tel" type="tel" placeholder="+123..." style="width: 100%; display: block;">
+                             </div>
+                             <div class="country">
+                                <label for="cou">Country*</label><br>
+                                <select name="" id="cou" style="width: 100%; display: block;">
+                                    <option value="">Bangladesh</option>
+                                    <option value="">Canada</option>
+                                    <option value="">USA</option>
+                                    <option value="">UK</option>
+                                </select>
+                             </div>
+                             <div class="street_add">
+                                <label for="street_address">Street address*</label><br>
+                                <input id="street_address" type="text" placeholder="House and street name..." style="width: 100%; display: block;"><br>
+                                <input id="street_address" type="text" placeholder="Apartment, suite, unit, etc. (optional)" style="width: 100%; display: block;">
+
+                             </div>
+                             <div class="country">
+                                <label for="cou">Town / City*</label><br>
+                                <select name="" id="cou" style="width: 100%; display: block;">
+                                    <option value="">Dhaka</option>
+                                    <option value="">Chattogram</option>
+                                    <option value="">Rangpur</option>
+                                    <option value="">Cumilla</option>
+                                </select>
+                             </div>
+                             <div class="post">
+                                <label for="code">Post Code*</label><br>
+                                <input id="code" type="text" placeholder="Code..." style="width: 100%; display: block;">
+
+                             </div>
+
+                        </form>
+
+
+                    </div>
+                    <div class="add_info col-lg-6">
+                        <h3>Additional Information</h3>
+                        <div class="mb-3 " >
+                            <label for="validationTextarea">Order notes (optional)*</label>
+                            <textarea class="form-control" id="validationTextarea" placeholder="Notes about your order, e.g. special notes for delivery." rows="5"></textarea>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+          <!--Checkout Section ends-->
+            <!--Chart Section starts-->
+        
+          <section id="cart_table">
+            
+            <div class="container">
+             <table border="1" width="100%" cellspacing="0" cellpadding="0" class="cart_tab">
+                <tr>
+                    <h3 style="color: #11161E;
+                    ">Your Order</h3>
+                 <td>
+                     <table width="100%" height="100%" class="cart_tab1">
+                         <tr>
+                             <td class=" cart_title col-lg-2">
+                                 <h6>Image</h6>
+                             </td>
+                             <td class=" cart_title col-lg-2">
+                                 <h6>Product Name</h6>
+                             </td>
+                             <td class=" cart_title col-lg-2">
+                                 <h6>Price/Unit</h6>
+                             </td>
+                             <td class=" cart_title col-lg-2">
+                                 <h6>Quantity</h6>
+                             </td>
+                             <td class=" cart_title col-lg-2">
+                                 <h6>Total</h6>
+                             </td>
+                             <td class=" cart_title col-lg-2">
+                                 <h6>Remove</h6>
+                             </td>
+                         </tr>
+                     </table>
+                     <table width="100%" height="100%">
+                         <tr>
+                             <td class=" cart_tab2 col-lg-2">
+                                 <img src="./img/cart (2).png">
+                             </td>
+                             <td class="  cart_tab2 col-lg-2">
+                                 <h6>Jacket Hoodie Sweater</h6>
+                             </td>
+                             <td class="  cart_tab2 col-lg-2">
+                               <p>$130.00</p>
+                             </td>
+                             <td class="  cart_tab2 col-lg-2">
+                                 
+                                 <div class="cart_button">
+                         
+                             <div class="row">
+                               <button type="submit" class=" cart_btn col-lg-2">-</button>
+                               <button type="submit" class=" cart_btn  col-lg-3">1</button>
+                               <button type="submit" class="cart_btn col-lg-2">+</button>
+ 
+                             </div>
+                                 </div>
+ 
+                             </td>
+                             <td class="  cart_tab2 col-lg-2">
+                                 <p>$130.00</p>
+                             </td>
+                             <td class="cart_tab2 col-lg-2">
+                                 <h6><span style="color:  #FF6F61;"><i class="bi bi-trash"></i></span></h6>
+                             </td>
+                         </tr>
+                     </table>
+                     <table width="100%" height="100%">
+                         <tr>
+                             <td class=" cart_3rd col-lg-2">
+                                <p style="text-align: left; margin: 0 10px;">Subtotal
+                                </p>
+                             
+                             
+                             </td>
+                           
+                             <td class=" cart_3rd col-lg-2">
+                                 
+                             </td>
+                             <td class= "cart_3rd col-lg-2">
+ 
+                             </td>
+                             <td class=" cart_3rd col-lg-2">
+                             </td>
+                            
+                             <td class=" cart_3rd col-lg-2">
+                                <p>$130.00</p>
+                             </td>
+                           
+                         </tr>
+                     </table>
+                     <table width="100%" height="100%">
+                        <tr>
+                            <td class=" cart_3rd col-lg-2">
+                               <p style="text-align: left; margin: 0 10px;">Total
+                               </p>
+                            
+                            
+                            </td>
+                          
+                            <td class=" cart_3rd col-lg-2">
+                                
+                            </td>
+                            <td class= "cart_3rd col-lg-2">
+
+                            </td>
+                            <td class=" cart_3rd col-lg-2">
+                            </td>
+                           
+                            <td class=" cart_3rd col-lg-2">
+                               <p>$130.00</p>
+                            </td>
+                          
+                        </tr>
+                    </table>
+                 </td>
+             
+                </tr>
+ 
+             </table>
+ 
+            </div>
+ 
+         </section>
+        <!--Checkout Section ends-->
+        <section id="Banking">
+            <div class="container">
+                <div class="direct_bank">
+                    <ul>
+                        <li><span style="color: #FF6F61;"><i class="bi bi-check-circle-fill"></i></span>
+                            <a>Direct bank transfer</a>
+                            <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our
+                                account.</p>
+                        </li>
+                        <li><span style="color: #FF6F61;"><i class="bi bi-check-circle-fill"></i></span>
+                            <a>Check payments</a>
+                            <p>Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</p>
+                        </li>
+                        <li><span style="color: #FF6F61;"><i class="bi bi-check-circle-fill"></i></span>
+                            <a>Cash on delivery</a>
+                            <p>Pay with cash upon delivery.</p>
+                        </li>
+                    </ul>
+                    <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+                    <a href="#" class="button">Place Order</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+ 
+ 
+ 
+     </main>
+        <!--Banner Section Ends-->
+
+
+        <footer class="shop_footer">
+          <div class="container">
+                <div class="footer_details">
+                  <div class="footer_icons">
+                  <div class="row">
+                    <div class="social_icons col-lg-6 col-md-8">
+                      <h3>Subscribe to Our Newsletter!</h3>
+                      <p>Authoritatively morph 24/7 potentialities with error-free partnerships.
+                         Objectively engineer multimedia.</p>
+                    </div>
+                    <div class="form col-lg-6 col-md-4">
+                      <div class="row">
+                        <div class="form_info col-lg-6">
+                          <label for="emailno"></label>
+                      <input type="email" id="emailno" placeholder="Enter your email..." style=" padding-top: 2px;">
+                        </div>
+                        <div class="form_btn col-lg-6">
+                           <a href="#" class="button">Subscribe</a>
+        
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                     
+                       
+                   
+      
+                    </div>
+                  
+                </div>
+              </div>
+                <div class="footerinfo">
+                  <div class="row">
+                    <div class="intro col-lg-3">
+                      <img src="./img/logo2.png">
+                      <p>Progressively optimize effective ideas before turnkey process improvements. Proactively disseminate</p>
+                      <ul>
+                        <li><span><i class="bi bi-facebook"></i></span></li>
+                        <li><span><i class="bi bi-twitter"></i></span></li>
+                        <li><span><i class="bi bi-instagram"></i></span></li>
+                        <li><span><i class="bi bi-pinterest"></i></span></li>
+                      </ul>
+      
+                    </div>
+      
+                 
+                  <div class="My_Account  col-lg-2 col-md-3">
+                    <h4>My Account</h4>
+                    <ul class="footerinfo_ul">
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>My Account</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>View Cart</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Wishlist</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Compare</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>New Products</a></li>
+                    </ul>
+      
+                  </div>
+                  <div class="support col-lg-2 col-md-4">
+                    <h4>Support</h4>
+                    <ul class="footerinfo_ul">
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Help</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Contact Us</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Feedback</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Customer Service</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Store Locations</a></li>
+                    </ul>
+      
+                  </div>
+                  <div class="shup col-lg-2 col-md-4">
+                    <h4>Shop</h4>
+                    <ul class="footerinfo_ul">
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Men’s Shopping</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Women’s Shopping</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Kids’ Shopping</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>Discounts</a></li>
+                      <li><a><span><i class="fa-solid fa-angle-right"></i></span>New Arrivels</a></li>
+                    </ul>
+      
+                  </div>
+                 
+                  <div class="contact_us col-lg-3 col-md-6">
+                    <h4>Contact Us</h4>
+                <div class="row align-center">
+                   <div class="icn col-lg-3 col-md-3"><i class="fa-sharp fa-solid fa-location-dot"></i></div>
+                   <div class="txt col-lg-9 col-md-9">830 Broadway, New York, NY 10003,
+                    United States
+                    .</div>
+                    
+                </div>
+                <div class="row align-center">
+                   <div class="icn col-lg-3 col-md-3"><i class="fa-solid fa-envelope"></i></div>
+                   <div class="txt col-lg-9 col-md-9">aetor.info@gmail.com
+                    info@aetor.com</div>
+                    
+                </div>
+                <div class="row align-center">
+                   <div class="icn col-lg-3 col-md-3"><i class="fa-solid fa-phone"></i></div>
+                   <div class="txt col-lg-9 col-md-9">+18008660286
+               </div>
+                    
+                </div>
+                  </div>
+               
+      
+                
+      
+                  </div>
+      
+                </div>
+                
+      
+                </div>
+      
+          </div>
+          
+          
+      
+      
+       </footer>
+       <div class="reserved">
+        <div class="container">
+  
+        
+        <div class="row">
+          <p class="p4 col-lg-9 col-md-6">© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft. </span>
+          </p>
+          <div class="credit_cards col-lg-3 col-md-6 ">
+            <img src="./img/credit cards.png">
+  
+          </div>
+  
+        </div>
+        </div>
+       
+  
+      </div>
+    
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery.countdown.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+    </body>
+    </html>

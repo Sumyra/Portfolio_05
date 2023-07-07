@@ -1,0 +1,321 @@
+@media (min-width: 992px) and (max-width:1099px){
+    #banner .banner_slider .banner_Cnt h2 {
+        line-height: 50px;
+    }
+    #banner .slick-dots {
+        left: 30px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width:891px){
+#banner  .banner_slider {
+    height: 500px;
+    }
+    #banner  .banner_slider .row {
+        height: 500px;
+    }
+    #banner .banner_slider .banner_Cnt h2 {
+        
+        font-size: 42px;
+        line-height: 46px;
+     
+}
+.button {
+    padding: 12px 22px;
+    font-size: 12px;
+}
+#banner .banner_slider .banner_Cnt .rightArrow {
+    font-size: 18px;
+    font-weight: 400;
+}
+#banner .slick-dots {
+    bottom: 55px;
+    left: 35px;
+}
+}
+@media (min-width: 320px) and (max-width:767px){
+
+    #banner  .banner_slider {
+        height: 300px;
+        }
+        #banner  .banner_slider .row {
+            height: 300px;
+        }
+        #banner .banner_slider .banner_Cnt {
+            width: 100%;
+        }
+        #banner .banner_slider .banner_Cnt h2 {
+            font-size: 25px;
+            line-height: 25px;
+        }
+        #banner .banner_slider .banner_Cnt p{
+            width: 215px;
+        }
+        #banner .banner_slider .banner_Cnt h6 {
+            font-size: 18px;
+            line-height: 15px;
+            
+        }
+        #banner .banner_slider .banner_Cnt p {
+            
+            font-size: 10px;
+            line-height: 15px;
+           
+        }
+        .button {
+            padding: 10px 12px;
+            font-size: 12px;
+        }
+        #banner .banner_slider .banner_Cnt .rightArrow {
+            font-size: 15px;
+            font-weight: 400;
+        }
+        #banner .slick-dots {
+            position: absolute;
+            bottom: -8px;
+            left: 107px;
+        }
+        #banner .banner_slider .banner_Cnt p {
+            font-weight: 200;
+            font-size: 12px;
+            line-height: 12px;
+        }
+
+        #banner .slick-dots button{
+            transform: scale(0.5);
+        }
+        
+
+
+}
+@media (min-width: 320px) and (max-width:767px){
+    .form_info input{
+        width: 100%;
+        display: block;
+    }
+    .form_btn .button{
+        width: 100%;
+        display: block;
+        margin-left: 0;
+    }
+}
+@media (min-width: 320px) and (max-width:767px){
+#flash_sale .wrapper .wrapper_cnt h6 {
+    font-size: 14px;
+    line-height: 20px;
+}
+#flash_sale .wrapper .wrapper_cnt h3 {
+    font-size: 18px;
+    line-height: 18px;
+  
+}
+#flash_sale .wrapper .wrapper_cnt p {
+    font-size: 12px;
+    line-height: 18px;
+}
+#flash_sale .wrapper .wrapper_cnt h5 {  
+    font-size: 14px;
+    line-height: 16px;
+}
+#flash_sale .wrapper .wrapper_cnt h5 span {
+    font-size: 16px;
+    line-height: 16px;
+}
+.wrapper_slider .slick-dots {
+    left: 220px;
+}
+}
+
+@media (min-width: 767px) and (max-width:991px){
+#flash_sale .wrapper .wrapper_cnt h3 {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+    color: var(--secondaryColor);
+    margin: 18px 0;
+}
+.wrapper_slider .slick-dots {
+    left: 296px;
+}
+}
+@media (min-width: 768px) and (max-width:991px){
+.latest_slider .slick-dots {
+    left: 300px;
+}
+}
+@media (min-width: 320px) and (max-width:767px){
+.latest_slider .slick-dots {
+    left: 218px;
+}
+}
+@media (min-width: 767px) and (max-width:991px){
+   
+    #payment .payment_card .payment_Cnt h5{
+    font-size: 11px;
+    }
+    #payment .payment_card .payment_Cnt p {
+    
+        font-size: 10px;
+        line-height: 15px;
+       
+    }
+    .payment_container{
+        width:700px;
+        margin: auto;   
+    }
+    .form_btn .button {
+        font-size: 10px;
+        padding: 0 3px;
+        margin-left: 139px;
+        margin-top: -30px;
+        z-index: 1;
+        position: absolute;
+    }
+  
+    
+}
+@media (min-width: 320px) and (max-width:567px){
+  
+    #payment .payment_card .payment_Cnt h5 {
+        font-size: 10px; 
+        margin-left: 50px;
+    }
+    #payment .payment_card .payment_Cnt p {
+        font-size: 8px;
+        line-height: 10px; 
+        margin-left: 50px;
+    }  
+    #payment {
+        padding: 40px 0;
+    }
+    .payment_container {
+        width: 300px;
+        margin: auto;
+    }
+    .span_img {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+        color: white;
+        background-color: var(--primaryColor);
+        text-align: center;
+        font-size: 12px;
+        border-radius: 50%;
+        padding: 0;
+        display: block;
+        right: 290px;
+        top: 5px;
+    }
+  
+    .form_btn .button {
+        font-size: 10px;
+        padding: 0 3px;
+        margin-left: 139px;
+        margin-top: -30px;
+        z-index: 1;
+        position: absolute;
+    }
+}
+@media (min-width: 320px) and (max-width:567px){
+    #Shop_banner p {
+        right: 42%;
+        margin-top: 15px;
+    }
+}
+@media (min-width: 320px) and (max-width:569px){
+    .WLC{
+        text-align: center;
+    }
+    .wlcCnt{
+        text-align: center;
+    }
+}
+@media (min-width: 320px) and (max-width:767px){
+    .shop_footer .footer_icons .form_btn .button {
+        margin-left: 0;
+    }
+}
+ 
+   
+
+
+@media (min-width: 768px) and (max-width:891px){
+    .customise_slider .slick-dots {
+        left: 295px;
+    }
+    .actor_slider .slick-dots {
+        left: 300px;
+    }
+    #profile .arrows .leftArrows {
+        left: 28px;
+    }
+    #profile .arrows .rightArrows {
+        right: 28px;
+    }
+}
+@media (min-width: 320px) and (max-width:569px){
+    #profile .arrows .leftArrows {
+        left: 10px;
+    }
+    #profile .arrows .rightArrows {
+        right: 10px;
+    }
+    .customise_slider .slick-dots {
+        left: 220px;
+    }
+    .actor_slider .slick-dots {
+        position: absolute;
+        bottom: -48px;
+        left: 200px;
+    }
+  
+}
+@media (min-width: 320px) and (max-width:568px){
+    .touch_form .name #Yname {
+        width: 100%;
+        display: block;
+    }
+    .touch_form .email #Yemail {
+        margin-top: 20px;
+        display: block;
+        width: 100%;
+    }
+    .touch_form .Number #Yno {
+        display: block;
+        width: 100%;
+    }
+    .touch_form .title #Ytext {
+        display: block;
+        width: 100%;
+        margin-top: 20px;
+      
+    }
+}
+@media (min-width: 767px) and (max-width:991px){
+    .shop_footer .footer_icons .form_btn .button {
+        margin-top: -30px;
+        margin-left: 150px;
+    }
+}
+@media (min-width: 320px) and (max-width:767px){
+    .btnn {
+   
+        font-size: 12px;
+      
+    }
+}
+@media (min-width: 320px) and (max-width:768px){
+    #cart_total{
+        width: 725px;
+    }
+}
+@media (min-width: 769px) and (max-width:991px){
+    #cart_total{
+        width: 800px;
+    }
+}
